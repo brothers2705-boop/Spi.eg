@@ -1,0 +1,1226 @@
+{
+  "schema_version": "1.1",
+  "schema": {
+    "id": "Unique reference prompt identifier (string)",
+    "brand_niche": "Industry/category label used for coarse matching",
+    "product_category": "Specific product type keyword",
+    "concept_type": "One of: Ultra-Minimalist & Luxury | Narrative & Emotionally Driven | High-Impact & Conceptual",
+    "keywords": "List of tokens used by the semantic matcher (TF-IDF corpus)",
+    "lighting": {
+      "type": "Named lighting technique",
+      "setup": "Physical rig description (source count, modifiers, angles)",
+      "mood": "Emotional quality of the light"
+    },
+    "camera": {
+      "lens_mm": "Focal length in millimeters",
+      "aperture": "f-stop expressed as f/x.x",
+      "angle": "Camera angle / shot type",
+      "framing": "Compositional framing description"
+    },
+    "color_palette": "Hex array, dominant to accent",
+    "texture_material": "Key surface/material rendering cues",
+    "mj_params": "Default Midjourney v6 parameter block",
+    "style_tags": "Free-form style descriptors reused in synthesis"
+  },
+  "reference_prompts": [
+    {
+      "id": "GRP-001",
+      "brand_niche": "Luxury Watches",
+      "product_category": "watch",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "watch",
+        "timepiece",
+        "chronograph",
+        "wrist",
+        "metal",
+        "precision",
+        "swiss",
+        "horology"
+      ],
+      "lighting": {
+        "type": "Rembrandt lighting",
+        "setup": "single 90cm softbox key at 45\u00b0, black v-flat negative fill camera left, gobo snoot on crown",
+        "mood": "dramatic, high-contrast, jewellery-grade"
+      },
+      "camera": {
+        "lens_mm": 100,
+        "aperture": "f/2.8",
+        "angle": "macro three-quarter hero angle",
+        "framing": "tight product hero shot, dial catch-light centered"
+      },
+      "color_palette": [
+        "#0A0A0A",
+        "#C9A227",
+        "#F5F5F0"
+      ],
+      "texture_material": "brushed stainless steel, sapphire crystal reflections, sunburst dial finish",
+      "mj_params": {
+        "ar": "1:1",
+        "stylize": 250,
+        "chaos": 5,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "editorial",
+        "product photography",
+        "luxury minimalism",
+        "studio"
+      ],
+      "seedance": {
+        "camera_movement": "Slow Orbital Shot (180\u00b0, locked focal distance)",
+        "motion_dynamics": [
+          "Product Rotation",
+          "Volumetric Lighting Shift"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 100,
+        "lighting_transition": "Rembrandt lighting transitions gradually, sustaining a dramatic, high-contrast, jewellery-grade mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-002",
+      "brand_niche": "Fine Fragrance",
+      "product_category": "perfume bottle",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "perfume",
+        "fragrance",
+        "bottle",
+        "glass",
+        "scent",
+        "cosmetic",
+        "flacon"
+      ],
+      "lighting": {
+        "type": "backlit rim + soft key",
+        "setup": "large octabox key 30\u00b0 front-left, LED strip backlight through frosted panel, mirror bounce base",
+        "mood": "ethereal, glowing, premium"
+      },
+      "camera": {
+        "lens_mm": 90,
+        "aperture": "f/4.0",
+        "angle": "eye-level straight-on",
+        "framing": "centered bottle, negative space heavy"
+      },
+      "color_palette": [
+        "#F7F3EE",
+        "#B08968",
+        "#1A1A1A"
+      ],
+      "texture_material": "cut crystal glass, liquid refraction, matte cardboard packaging",
+      "mj_params": {
+        "ar": "4:5",
+        "stylize": 300,
+        "chaos": 8,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "glass refraction",
+        "still life",
+        "advertising",
+        "clean studio"
+      ],
+      "seedance": {
+        "camera_movement": "Static Locked Camera with subtle Dolly Zoom",
+        "motion_dynamics": [
+          "Product Rotation",
+          "Fluid Physics (subtle liquid/fabric sway)"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 90,
+        "lighting_transition": "backlit rim + soft key transitions gradually, sustaining a ethereal, glowing, premium mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-003",
+      "brand_niche": "Automotive",
+      "product_category": "sports car",
+      "concept_type": "High-Impact & Conceptual",
+      "keywords": [
+        "car",
+        "automotive",
+        "vehicle",
+        "speed",
+        "supercar",
+        "performance",
+        "chrome"
+      ],
+      "lighting": {
+        "type": "light painting + practicals",
+        "setup": "long exposure LED light-painting on body panels, neon practicals in background, low key ambient",
+        "mood": "aggressive, futuristic, electric"
+      },
+      "camera": {
+        "lens_mm": 35,
+        "aperture": "f/8.0",
+        "angle": "low hero angle, wide dynamic perspective",
+        "framing": "3/4 front with motion trail"
+      },
+      "color_palette": [
+        "#050507",
+        "#00E5FF",
+        "#FF3D00"
+      ],
+      "texture_material": "wet asphalt reflections, carbon fiber weave, polished lacquer paint",
+      "mj_params": {
+        "ar": "16:9",
+        "stylize": 700,
+        "chaos": 35,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "cinematic",
+        "night photography",
+        "high-octane",
+        "conceptual"
+      ],
+      "seedance": {
+        "camera_movement": "FPV Drone Whip Pan",
+        "motion_dynamics": [
+          "Explosive FX / Particle Dynamics",
+          "High-Speed Phantom Slow-Mo"
+        ],
+        "motion_speed": "high-speed phantom capture, 0.05x-0.1x slow-mo on impact frame",
+        "camera_lens_mm": 35,
+        "lighting_transition": "light painting + practicals transitions gradually, sustaining a aggressive, futuristic, electric mood throughout the shot",
+        "frame_rate_feel": "hybrid capture: 24fps base narrative cut with 120-1000fps phantom slow-mo inserts",
+        "temporal_pacing": "3-4s punchy hero beat with hard cut on impact frame, non-looping",
+        "motion_intensity_default": 9
+      }
+    },
+    {
+      "id": "GRP-004",
+      "brand_niche": "Fashion Apparel",
+      "product_category": "outerwear",
+      "concept_type": "Narrative & Emotionally Driven",
+      "keywords": [
+        "fashion",
+        "coat",
+        "jacket",
+        "model",
+        "editorial",
+        "apparel",
+        "streetwear"
+      ],
+      "lighting": {
+        "type": "natural golden hour",
+        "setup": "single sun source backlight, silver reflector fill camera right, atmospheric haze",
+        "mood": "warm, nostalgic, cinematic"
+      },
+      "camera": {
+        "lens_mm": 85,
+        "aperture": "f/1.8",
+        "angle": "eye-level candid",
+        "framing": "medium shot, rule-of-thirds subject placement"
+      },
+      "color_palette": [
+        "#D98E4A",
+        "#3B2A20",
+        "#F2E4D8"
+      ],
+      "texture_material": "wool fibers, backlit hair detail, film grain",
+      "mj_params": {
+        "ar": "3:4",
+        "stylize": 450,
+        "chaos": 15,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "editorial fashion",
+        "storytelling",
+        "film photography",
+        "35mm grain"
+      ],
+      "seedance": {
+        "camera_movement": "Handheld Tracking Shot (motivated, subject-led)",
+        "motion_dynamics": [
+          "Fluid Physics (natural cloth/hair movement)",
+          "Volumetric Lighting Shift (time-of-day drift)"
+        ],
+        "motion_speed": "naturalistic real-time (1.0x) with occasional 0.75x emotional beats",
+        "camera_lens_mm": 85,
+        "lighting_transition": "natural golden hour transitions gradually, sustaining a warm, nostalgic, cinematic mood throughout the shot",
+        "frame_rate_feel": "24fps film-like with natural motion blur, subtle handheld micro-jitter",
+        "temporal_pacing": "5-8s single continuous vignette, non-looping narrative beat",
+        "motion_intensity_default": 5
+      }
+    },
+    {
+      "id": "GRP-005",
+      "brand_niche": "Jewelry",
+      "product_category": "diamond ring",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "jewelry",
+        "ring",
+        "diamond",
+        "gemstone",
+        "gold",
+        "precious",
+        "engagement"
+      ],
+      "lighting": {
+        "type": "diffused overhead + fiber-optic sparkle",
+        "setup": "ring light diffused through silk, pinpoint fiber-optic highlights on facets, black glass base",
+        "mood": "crisp, sparkling, opulent"
+      },
+      "camera": {
+        "lens_mm": 105,
+        "aperture": "f/11",
+        "angle": "top-down macro",
+        "framing": "extreme close-up on stone facets"
+      },
+      "color_palette": [
+        "#0D0D0D",
+        "#FFFFFF",
+        "#E8C77D"
+      ],
+      "texture_material": "faceted diamond refraction, polished 18k gold band, black acrylic reflection",
+      "mj_params": {
+        "ar": "1:1",
+        "stylize": 200,
+        "chaos": 3,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "macro product",
+        "jewellery photography",
+        "studio precision"
+      ],
+      "seedance": {
+        "camera_movement": "Macro Crane Descent",
+        "motion_dynamics": [
+          "Volumetric Lighting Shift",
+          "Fluid Physics (subtle liquid/fabric sway)"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 105,
+        "lighting_transition": "diffused overhead + fiber-optic sparkle transitions gradually, sustaining a crisp, sparkling, opulent mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-006",
+      "brand_niche": "Consumer Tech",
+      "product_category": "smartphone",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "tech",
+        "gadget",
+        "smartphone",
+        "device",
+        "electronics",
+        "minimal"
+      ],
+      "lighting": {
+        "type": "gradient softbox sweep",
+        "setup": "large gradient backdrop light, edge-lighting strips on device sides, soft top fill",
+        "mood": "clean, futuristic, premium"
+      },
+      "camera": {
+        "lens_mm": 100,
+        "aperture": "f/5.6",
+        "angle": "slight top-down 15\u00b0",
+        "framing": "centered floating product shot"
+      },
+      "color_palette": [
+        "#F2F2F2",
+        "#111111",
+        "#7C7CFF"
+      ],
+      "texture_material": "anodized aluminum, glass back panel gradient, matte silicone",
+      "mj_params": {
+        "ar": "1:1",
+        "stylize": 250,
+        "chaos": 5,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "product render",
+        "tech advertising",
+        "gradient studio"
+      ],
+      "seedance": {
+        "camera_movement": "360 Product Spin (turntable orbital)",
+        "motion_dynamics": [
+          "Product Rotation",
+          "Volumetric Lighting Shift"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 100,
+        "lighting_transition": "gradient softbox sweep transitions gradually, sustaining a clean, futuristic, premium mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-007",
+      "brand_niche": "Spirits & Whiskey",
+      "product_category": "whiskey bottle",
+      "concept_type": "Narrative & Emotionally Driven",
+      "keywords": [
+        "whiskey",
+        "spirits",
+        "bottle",
+        "bar",
+        "amber",
+        "distillery",
+        "bourbon"
+      ],
+      "lighting": {
+        "type": "moody tungsten practicals",
+        "setup": "single tungsten practical lamp camera-left, smoke diffusion, dark oak backdrop",
+        "mood": "intimate, smoky, masculine warmth"
+      },
+      "camera": {
+        "lens_mm": 50,
+        "aperture": "f/2.0",
+        "angle": "eye-level intimate",
+        "framing": "bottle with glass and ice foreground bokeh"
+      },
+      "color_palette": [
+        "#3A2410",
+        "#D9A441",
+        "#0D0D0D"
+      ],
+      "texture_material": "amber liquid caustics, condensation on glass, aged oak grain",
+      "mj_params": {
+        "ar": "3:2",
+        "stylize": 400,
+        "chaos": 20,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "moody still life",
+        "cinematic bar scene",
+        "warm tungsten"
+      ],
+      "seedance": {
+        "camera_movement": "Slow Push-In Dolly",
+        "motion_dynamics": [
+          "Fluid Physics (natural cloth/hair movement)",
+          "Ambient Particle Drift (dust/steam)"
+        ],
+        "motion_speed": "naturalistic real-time (1.0x) with occasional 0.75x emotional beats",
+        "camera_lens_mm": 50,
+        "lighting_transition": "moody tungsten practicals transitions gradually, sustaining a intimate, smoky, masculine warmth mood throughout the shot",
+        "frame_rate_feel": "24fps film-like with natural motion blur, subtle handheld micro-jitter",
+        "temporal_pacing": "5-8s single continuous vignette, non-looping narrative beat",
+        "motion_intensity_default": 5
+      }
+    },
+    {
+      "id": "GRP-008",
+      "brand_niche": "Footwear",
+      "product_category": "sneaker",
+      "concept_type": "High-Impact & Conceptual",
+      "keywords": [
+        "sneaker",
+        "shoe",
+        "footwear",
+        "sport",
+        "streetwear",
+        "athletic"
+      ],
+      "lighting": {
+        "type": "hard flash + colored gels",
+        "setup": "twin strip lights with magenta/cyan gels crossed, hard flash key for micro-contrast",
+        "mood": "energetic, bold, graphic"
+      },
+      "camera": {
+        "lens_mm": 35,
+        "aperture": "f/9.0",
+        "angle": "dynamic diagonal low angle",
+        "framing": "explosive product shot with debris/particles"
+      },
+      "color_palette": [
+        "#FF2E63",
+        "#08D9D6",
+        "#0A0A0A"
+      ],
+      "texture_material": "textile mesh weave, rubber sole tread detail, splashing particulate",
+      "mj_params": {
+        "ar": "1:1",
+        "stylize": 650,
+        "chaos": 45,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "hypebeast advertising",
+        "high energy",
+        "gel lighting",
+        "conceptual"
+      ],
+      "seedance": {
+        "camera_movement": "Crane Shot with Dutch-tilt Reveal",
+        "motion_dynamics": [
+          "Explosive FX / Particle Dynamics",
+          "Fluid Physics (splash/impact simulation)"
+        ],
+        "motion_speed": "high-speed phantom capture, 0.05x-0.1x slow-mo on impact frame",
+        "camera_lens_mm": 35,
+        "lighting_transition": "hard flash + colored gels transitions gradually, sustaining a energetic, bold, graphic mood throughout the shot",
+        "frame_rate_feel": "hybrid capture: 24fps base narrative cut with 120-1000fps phantom slow-mo inserts",
+        "temporal_pacing": "3-4s punchy hero beat with hard cut on impact frame, non-looping",
+        "motion_intensity_default": 9
+      }
+    },
+    {
+      "id": "GRP-009",
+      "brand_niche": "Skincare & Cosmetics",
+      "product_category": "serum jar",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "skincare",
+        "cosmetic",
+        "serum",
+        "cream",
+        "beauty",
+        "jar",
+        "wellness"
+      ],
+      "lighting": {
+        "type": "soft diffused wraparound",
+        "setup": "large diffusion tent, dual soft strip lights opposing, water droplet macro sprays",
+        "mood": "clean, hydrating, clinical elegance"
+      },
+      "camera": {
+        "lens_mm": 90,
+        "aperture": "f/6.3",
+        "angle": "eye-level centered",
+        "framing": "hero product with floating water droplets"
+      },
+      "color_palette": [
+        "#EDEAE4",
+        "#8FA98B",
+        "#FFFFFF"
+      ],
+      "texture_material": "frosted glass jar, water droplet refraction, botanical leaf accents",
+      "mj_params": {
+        "ar": "4:5",
+        "stylize": 280,
+        "chaos": 6,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "clean beauty",
+        "spa aesthetic",
+        "studio macro"
+      ],
+      "seedance": {
+        "camera_movement": "Slow Orbital Shot (180\u00b0, locked focal distance)",
+        "motion_dynamics": [
+          "Product Rotation",
+          "Fluid Physics (subtle liquid/fabric sway)"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 90,
+        "lighting_transition": "soft diffused wraparound transitions gradually, sustaining a clean, hydrating, clinical elegance mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-010",
+      "brand_niche": "Eyewear",
+      "product_category": "sunglasses",
+      "concept_type": "Narrative & Emotionally Driven",
+      "keywords": [
+        "sunglasses",
+        "eyewear",
+        "glasses",
+        "summer",
+        "fashion",
+        "lifestyle"
+      ],
+      "lighting": {
+        "type": "harsh midday sun + fill",
+        "setup": "natural overhead sun, white foam-core fill under chin, lens flare embraced",
+        "mood": "vacation, carefree, sun-drenched"
+      },
+      "camera": {
+        "lens_mm": 85,
+        "aperture": "f/2.2",
+        "angle": "slight low angle looking up",
+        "framing": "close portrait crop on face with lens reflections"
+      },
+      "color_palette": [
+        "#F4D35E",
+        "#0B4F6C",
+        "#FBEEC1"
+      ],
+      "texture_material": "polarized lens reflections, sun-kissed skin, acetate frame sheen",
+      "mj_params": {
+        "ar": "4:5",
+        "stylize": 400,
+        "chaos": 18,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "lifestyle editorial",
+        "summer campaign",
+        "natural light"
+      ],
+      "seedance": {
+        "camera_movement": "Steadicam Follow (walk-and-talk)",
+        "motion_dynamics": [
+          "Volumetric Lighting Shift (time-of-day drift)",
+          "Ambient Particle Drift (dust/steam)"
+        ],
+        "motion_speed": "naturalistic real-time (1.0x) with occasional 0.75x emotional beats",
+        "camera_lens_mm": 85,
+        "lighting_transition": "harsh midday sun + fill transitions gradually, sustaining a vacation, carefree, sun-drenched mood throughout the shot",
+        "frame_rate_feel": "24fps film-like with natural motion blur, subtle handheld micro-jitter",
+        "temporal_pacing": "5-8s single continuous vignette, non-looping narrative beat",
+        "motion_intensity_default": 5
+      }
+    },
+    {
+      "id": "GRP-011",
+      "brand_niche": "Handbags & Leather Goods",
+      "product_category": "handbag",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "handbag",
+        "leather",
+        "purse",
+        "bag",
+        "accessory",
+        "atelier"
+      ],
+      "lighting": {
+        "type": "large soft key + subtle rim",
+        "setup": "5ft octabox key 35\u00b0 front, thin rim light rear to separate from backdrop",
+        "mood": "tactile, opulent, refined"
+      },
+      "camera": {
+        "lens_mm": 100,
+        "aperture": "f/8.0",
+        "angle": "eye-level 3/4 view",
+        "framing": "hero product centered on seamless backdrop"
+      },
+      "color_palette": [
+        "#4A2E1E",
+        "#E8DCC8",
+        "#0A0A0A"
+      ],
+      "texture_material": "full-grain leather grain, brushed gold hardware, contrast stitching",
+      "mj_params": {
+        "ar": "4:5",
+        "stylize": 300,
+        "chaos": 5,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "luxury catalog",
+        "atelier product photography",
+        "studio"
+      ],
+      "seedance": {
+        "camera_movement": "Static Locked Camera with subtle Dolly Zoom",
+        "motion_dynamics": [
+          "Volumetric Lighting Shift",
+          "Fluid Physics (subtle liquid/fabric sway)"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 100,
+        "lighting_transition": "large soft key + subtle rim transitions gradually, sustaining a tactile, opulent, refined mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-012",
+      "brand_niche": "Food & Confectionery",
+      "product_category": "chocolate",
+      "concept_type": "Narrative & Emotionally Driven",
+      "keywords": [
+        "chocolate",
+        "confectionery",
+        "dessert",
+        "food",
+        "gourmet",
+        "patisserie"
+      ],
+      "lighting": {
+        "type": "side-raking soft light",
+        "setup": "single softbox 90\u00b0 side angle for raking texture, warm bounce card fill, steam/smoke accent",
+        "mood": "indulgent, rich, tempting"
+      },
+      "camera": {
+        "lens_mm": 100,
+        "aperture": "f/3.5",
+        "angle": "45\u00b0 overhead",
+        "framing": "macro close-up with shallow focus fall-off"
+      },
+      "color_palette": [
+        "#3B1E12",
+        "#8C5A3B",
+        "#F5E6D3"
+      ],
+      "texture_material": "glossy chocolate ganache drip, cocoa powder dust, melted pooling",
+      "mj_params": {
+        "ar": "1:1",
+        "stylize": 400,
+        "chaos": 15,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "food photography",
+        "gourmet advertising",
+        "macro texture"
+      ],
+      "seedance": {
+        "camera_movement": "Gentle Crane Rise (reveal environment)",
+        "motion_dynamics": [
+          "Fluid Physics (natural cloth/hair movement)",
+          "Volumetric Lighting Shift (time-of-day drift)"
+        ],
+        "motion_speed": "naturalistic real-time (1.0x) with occasional 0.75x emotional beats",
+        "camera_lens_mm": 100,
+        "lighting_transition": "side-raking soft light transitions gradually, sustaining a indulgent, rich, tempting mood throughout the shot",
+        "frame_rate_feel": "24fps film-like with natural motion blur, subtle handheld micro-jitter",
+        "temporal_pacing": "5-8s single continuous vignette, non-looping narrative beat",
+        "motion_intensity_default": 5
+      }
+    },
+    {
+      "id": "GRP-013",
+      "brand_niche": "Real Estate & Architecture",
+      "product_category": "luxury villa",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "architecture",
+        "villa",
+        "interior",
+        "real estate",
+        "property",
+        "design"
+      ],
+      "lighting": {
+        "type": "blue hour ambient + interior practicals",
+        "setup": "twilight ambient exposure balanced with warm interior tungsten practicals, HDR bracket",
+        "mood": "aspirational, serene, expansive"
+      },
+      "camera": {
+        "lens_mm": 24,
+        "aperture": "f/8.0",
+        "angle": "eye-level wide architectural",
+        "framing": "symmetrical wide establishing shot"
+      },
+      "color_palette": [
+        "#1B2A41",
+        "#D9A441",
+        "#EAEAEA"
+      ],
+      "texture_material": "polished concrete, floor-to-ceiling glass, natural stone cladding",
+      "mj_params": {
+        "ar": "16:9",
+        "stylize": 350,
+        "chaos": 10,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "architectural photography",
+        "twilight exterior",
+        "real estate"
+      ],
+      "seedance": {
+        "camera_movement": "Macro Crane Descent",
+        "motion_dynamics": [
+          "Product Rotation",
+          "Volumetric Lighting Shift"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 24,
+        "lighting_transition": "blue hour ambient + interior practicals transitions gradually, sustaining a aspirational, serene, expansive mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-014",
+      "brand_niche": "Sports Apparel",
+      "product_category": "performance wear",
+      "concept_type": "High-Impact & Conceptual",
+      "keywords": [
+        "sportswear",
+        "athletic",
+        "performance",
+        "fitness",
+        "action",
+        "gym"
+      ],
+      "lighting": {
+        "type": "hard strobe freeze-motion",
+        "setup": "twin high-speed strobes at 1/8000s sync, black background, sweat/water spray practical",
+        "mood": "explosive, kinetic, powerful"
+      },
+      "camera": {
+        "lens_mm": 70,
+        "aperture": "f/5.6",
+        "angle": "dynamic low action angle",
+        "framing": "mid-action freeze frame, motion blur accents"
+      },
+      "color_palette": [
+        "#0A0A0A",
+        "#FF4B2B",
+        "#FFFFFF"
+      ],
+      "texture_material": "sweat droplets frozen mid-air, technical fabric sheen, muscle definition shadow",
+      "mj_params": {
+        "ar": "3:4",
+        "stylize": 600,
+        "chaos": 40,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "action photography",
+        "high-speed strobe",
+        "sports advertising"
+      ],
+      "seedance": {
+        "camera_movement": "Orbital Snap-Zoom (impact-synced)",
+        "motion_dynamics": [
+          "High-Speed Phantom Slow-Mo",
+          "Fluid Physics (splash/impact simulation)"
+        ],
+        "motion_speed": "high-speed phantom capture, 0.05x-0.1x slow-mo on impact frame",
+        "camera_lens_mm": 70,
+        "lighting_transition": "hard strobe freeze-motion transitions gradually, sustaining a explosive, kinetic, powerful mood throughout the shot",
+        "frame_rate_feel": "hybrid capture: 24fps base narrative cut with 120-1000fps phantom slow-mo inserts",
+        "temporal_pacing": "3-4s punchy hero beat with hard cut on impact frame, non-looping",
+        "motion_intensity_default": 9
+      }
+    },
+    {
+      "id": "GRP-015",
+      "brand_niche": "Yacht & Travel",
+      "product_category": "yacht",
+      "concept_type": "Narrative & Emotionally Driven",
+      "keywords": [
+        "yacht",
+        "travel",
+        "luxury travel",
+        "ocean",
+        "leisure",
+        "voyage"
+      ],
+      "lighting": {
+        "type": "golden hour natural",
+        "setup": "low sun angle backlight over water, warm reflective bounce off ocean surface",
+        "mood": "aspirational, tranquil, freeing"
+      },
+      "camera": {
+        "lens_mm": 35,
+        "aperture": "f/4.0",
+        "angle": "eye-level from adjacent tender boat",
+        "framing": "wide environmental shot with generous negative sky"
+      },
+      "color_palette": [
+        "#0E3B5C",
+        "#F4A64B",
+        "#FDF6E3"
+      ],
+      "texture_material": "sun-glinted water ripples, polished teak deck, sail-white hull gloss",
+      "mj_params": {
+        "ar": "16:9",
+        "stylize": 400,
+        "chaos": 12,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "travel editorial",
+        "golden hour",
+        "lifestyle luxury"
+      ],
+      "seedance": {
+        "camera_movement": "Handheld Tracking Shot (motivated, subject-led)",
+        "motion_dynamics": [
+          "Fluid Physics (natural cloth/hair movement)",
+          "Ambient Particle Drift (dust/steam)"
+        ],
+        "motion_speed": "naturalistic real-time (1.0x) with occasional 0.75x emotional beats",
+        "camera_lens_mm": 35,
+        "lighting_transition": "golden hour natural transitions gradually, sustaining a aspirational, tranquil, freeing mood throughout the shot",
+        "frame_rate_feel": "24fps film-like with natural motion blur, subtle handheld micro-jitter",
+        "temporal_pacing": "5-8s single continuous vignette, non-looping narrative beat",
+        "motion_intensity_default": 5
+      }
+    },
+    {
+      "id": "GRP-016",
+      "brand_niche": "Fine Fragrance",
+      "product_category": "perfume flatlay",
+      "concept_type": "High-Impact & Conceptual",
+      "keywords": [
+        "perfume",
+        "fragrance",
+        "flatlay",
+        "botanical",
+        "ingredients",
+        "scent"
+      ],
+      "lighting": {
+        "type": "hard top light with colored gobo",
+        "setup": "single hard top strobe through botanical gobo cutout, colored gel wash on backdrop",
+        "mood": "surreal, painterly, bold"
+      },
+      "camera": {
+        "lens_mm": 50,
+        "aperture": "f/10",
+        "angle": "top-down flatlay",
+        "framing": "scattered botanical ingredients around bottle"
+      },
+      "color_palette": [
+        "#5C1A33",
+        "#E0A96D",
+        "#0A0A0A"
+      ],
+      "texture_material": "flower petal translucency, crystalline glass, powdered pigment scatter",
+      "mj_params": {
+        "ar": "1:1",
+        "stylize": 700,
+        "chaos": 50,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "conceptual flatlay",
+        "surreal advertising",
+        "gel-lit"
+      ],
+      "seedance": {
+        "camera_movement": "Low Tracking Shot into Dolly Zoom",
+        "motion_dynamics": [
+          "Explosive FX / Particle Dynamics",
+          "High-Speed Phantom Slow-Mo"
+        ],
+        "motion_speed": "high-speed phantom capture, 0.05x-0.1x slow-mo on impact frame",
+        "camera_lens_mm": 50,
+        "lighting_transition": "hard top light with colored gobo transitions gradually, sustaining a surreal, painterly, bold mood throughout the shot",
+        "frame_rate_feel": "hybrid capture: 24fps base narrative cut with 120-1000fps phantom slow-mo inserts",
+        "temporal_pacing": "3-4s punchy hero beat with hard cut on impact frame, non-looping",
+        "motion_intensity_default": 9
+      }
+    },
+    {
+      "id": "GRP-017",
+      "brand_niche": "Electric Vehicles",
+      "product_category": "EV sedan",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "electric vehicle",
+        "ev",
+        "car",
+        "automotive",
+        "sustainable",
+        "sedan"
+      ],
+      "lighting": {
+        "type": "cyclorama softbox sweep",
+        "setup": "infinite white cyclorama, overhead softbox strip lights tracing body lines, polarizing filter to control glare",
+        "mood": "clean, silent, precision-engineered"
+      },
+      "camera": {
+        "lens_mm": 35,
+        "aperture": "f/11",
+        "angle": "eye-level 3/4 front",
+        "framing": "full vehicle centered on seamless white"
+      },
+      "color_palette": [
+        "#FFFFFF",
+        "#101820",
+        "#8FA3AD"
+      ],
+      "texture_material": "matte ceramic paint, brushed aluminum trim, seamless panel gaps",
+      "mj_params": {
+        "ar": "16:9",
+        "stylize": 300,
+        "chaos": 8,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "automotive studio",
+        "clean tech",
+        "minimal luxury"
+      ],
+      "seedance": {
+        "camera_movement": "360 Product Spin (turntable orbital)",
+        "motion_dynamics": [
+          "Product Rotation",
+          "Fluid Physics (subtle liquid/fabric sway)"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 35,
+        "lighting_transition": "cyclorama softbox sweep transitions gradually, sustaining a clean, silent, precision-engineered mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-018",
+      "brand_niche": "Coffee & Beverage",
+      "product_category": "coffee cup",
+      "concept_type": "Narrative & Emotionally Driven",
+      "keywords": [
+        "coffee",
+        "beverage",
+        "cafe",
+        "espresso",
+        "morning",
+        "roastery"
+      ],
+      "lighting": {
+        "type": "window light + steam backlight",
+        "setup": "large diffused window as key, thin backlight to catch rising steam, warm practical accents",
+        "mood": "cozy, ritualistic, intimate"
+      },
+      "camera": {
+        "lens_mm": 85,
+        "aperture": "f/1.8",
+        "angle": "eye-level candid",
+        "framing": "close crop with shallow depth, blurred cafe background"
+      },
+      "color_palette": [
+        "#3E2723",
+        "#D7A86E",
+        "#F4EDE4"
+      ],
+      "texture_material": "crema micro-foam texture, ceramic glaze, rising steam wisps",
+      "mj_params": {
+        "ar": "4:5",
+        "stylize": 380,
+        "chaos": 14,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "lifestyle beverage",
+        "cozy editorial",
+        "natural window light"
+      ],
+      "seedance": {
+        "camera_movement": "Slow Push-In Dolly",
+        "motion_dynamics": [
+          "Volumetric Lighting Shift (time-of-day drift)",
+          "Ambient Particle Drift (dust/steam)"
+        ],
+        "motion_speed": "naturalistic real-time (1.0x) with occasional 0.75x emotional beats",
+        "camera_lens_mm": 85,
+        "lighting_transition": "window light + steam backlight transitions gradually, sustaining a cozy, ritualistic, intimate mood throughout the shot",
+        "frame_rate_feel": "24fps film-like with natural motion blur, subtle handheld micro-jitter",
+        "temporal_pacing": "5-8s single continuous vignette, non-looping narrative beat",
+        "motion_intensity_default": 5
+      }
+    },
+    {
+      "id": "GRP-019",
+      "brand_niche": "Furniture & Interior Design",
+      "product_category": "designer chair",
+      "concept_type": "Ultra-Minimalist & Luxury",
+      "keywords": [
+        "furniture",
+        "chair",
+        "interior",
+        "design",
+        "minimal",
+        "decor"
+      ],
+      "lighting": {
+        "type": "large soft north-light window simulation",
+        "setup": "8ft diffusion frame simulating north-facing window, subtle floor bounce",
+        "mood": "calm, considered, gallery-like"
+      },
+      "camera": {
+        "lens_mm": 50,
+        "aperture": "f/5.6",
+        "angle": "eye-level straight-on",
+        "framing": "centered subject with generous negative space"
+      },
+      "color_palette": [
+        "#EAE6DF",
+        "#8C7A6B",
+        "#2B2B2B"
+      ],
+      "texture_material": "boucle upholstery weave, oiled walnut frame, soft shadow gradients",
+      "mj_params": {
+        "ar": "4:5",
+        "stylize": 250,
+        "chaos": 5,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "interior editorial",
+        "gallery minimalism",
+        "soft daylight"
+      ],
+      "seedance": {
+        "camera_movement": "Slow Orbital Shot (180\u00b0, locked focal distance)",
+        "motion_dynamics": [
+          "Volumetric Lighting Shift",
+          "Fluid Physics (subtle liquid/fabric sway)"
+        ],
+        "motion_speed": "slow, deliberate (0.4x-0.6x perceived real time)",
+        "camera_lens_mm": 50,
+        "lighting_transition": "large soft north-light window simulation transitions gradually, sustaining a calm, considered, gallery-like mood throughout the shot",
+        "frame_rate_feel": "cinematic 24fps, silky smooth interpolation, no motion blur artifacts",
+        "temporal_pacing": "seamless 6s loop, no hard cuts, breathing-room pacing",
+        "motion_intensity_default": 3
+      }
+    },
+    {
+      "id": "GRP-020",
+      "brand_niche": "Luxury Watches",
+      "product_category": "watch on wrist",
+      "concept_type": "High-Impact & Conceptual",
+      "keywords": [
+        "watch",
+        "timepiece",
+        "wrist",
+        "action",
+        "adventure",
+        "durability"
+      ],
+      "lighting": {
+        "type": "hard directional sun + fill flash",
+        "setup": "direct sun key, on-camera fill flash to control shadow ratio, dust/spray particulate",
+        "mood": "rugged, kinetic, adventurous"
+      },
+      "camera": {
+        "lens_mm": 24,
+        "aperture": "f/9.0",
+        "angle": "extreme low dynamic angle",
+        "framing": "wrist mid-motion with environmental context"
+      },
+      "color_palette": [
+        "#1A1A1A",
+        "#C9A227",
+        "#5C7A89"
+      ],
+      "texture_material": "titanium case scratches, splashing water droplets, weathered leather strap",
+      "mj_params": {
+        "ar": "16:9",
+        "stylize": 600,
+        "chaos": 42,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "adventure advertising",
+        "action lifestyle",
+        "high energy"
+      ],
+      "seedance": {
+        "camera_movement": "FPV Drone Whip Pan",
+        "motion_dynamics": [
+          "Explosive FX / Particle Dynamics",
+          "Fluid Physics (splash/impact simulation)"
+        ],
+        "motion_speed": "high-speed phantom capture, 0.05x-0.1x slow-mo on impact frame",
+        "camera_lens_mm": 24,
+        "lighting_transition": "hard directional sun + fill flash transitions gradually, sustaining a rugged, kinetic, adventurous mood throughout the shot",
+        "frame_rate_feel": "hybrid capture: 24fps base narrative cut with 120-1000fps phantom slow-mo inserts",
+        "temporal_pacing": "3-4s punchy hero beat with hard cut on impact frame, non-looping",
+        "motion_intensity_default": 9
+      }
+    },
+    {
+      "id": "GRP-021",
+      "brand_niche": "Beauty Portrait",
+      "product_category": "cosmetic campaign portrait",
+      "concept_type": "Narrative & Emotionally Driven",
+      "keywords": [
+        "beauty",
+        "portrait",
+        "cosmetic",
+        "makeup",
+        "skin",
+        "campaign"
+      ],
+      "lighting": {
+        "type": "clamshell beauty lighting",
+        "setup": "large beauty dish key above, silver reflector below as fill (clamshell), hair light for separation",
+        "mood": "flawless, intimate, radiant"
+      },
+      "camera": {
+        "lens_mm": 135,
+        "aperture": "f/2.0",
+        "angle": "eye-level close portrait",
+        "framing": "tight beauty crop, catch-light in eyes"
+      },
+      "color_palette": [
+        "#F5DCC8",
+        "#8C3B2E",
+        "#1A1A1A"
+      ],
+      "texture_material": "dewy skin sheen, fine hair strand detail, soft fabric drape",
+      "mj_params": {
+        "ar": "4:5",
+        "stylize": 420,
+        "chaos": 16,
+        "style": "raw",
+        "v": "6.0"
+      },
+      "style_tags": [
+        "beauty campaign",
+        "clamshell lighting",
+        "editorial portrait"
+      ],
+      "seedance": {
+        "camera_movement": "Steadicam Follow (walk-and-talk)",
+        "motion_dynamics": [
+          "Fluid Physics (natural cloth/hair movement)",
+          "Volumetric Lighting Shift (time-of-day drift)"
+        ],
+        "motion_speed": "naturalistic real-time (1.0x) with occasional 0.75x emotional beats",
+        "camera_lens_mm": 135,
+        "lighting_transition": "clamshell beauty lighting transitions gradually, sustaining a flawless, intimate, radiant mood throughout the shot",
+        "frame_rate_feel": "24fps film-like with natural motion blur, subtle handheld micro-jitter",
+        "temporal_pacing": "5-8s single continuous vignette, non-looping narrative beat",
+        "motion_intensity_default": 5
+      }
+    }
+  ],
+  "seedance_schema": {
+    "camera_movement": "Named cinematic camera move (Pan, Tilt, Dolly Zoom, Orbital, FPV Drone, Crane, Tracking, etc.)",
+    "motion_dynamics": "List of physical motion effects applied to subject/scene",
+    "motion_speed": "Perceived playback speed relative to real time, including slow-mo/phantom-camera framing",
+    "camera_lens_mm": "Focal length carried over from the still reference for visual continuity between key visual and motion output",
+    "lighting_transition": "How the lighting evolves across the shot duration (static holds excluded)",
+    "frame_rate_feel": "Descriptive frame-rate/motion-blur character (not a literal encoder setting)",
+    "temporal_pacing": "Shot duration and edit rhythm: seamless loop vs. single narrative beat vs. punchy hero cut",
+    "motion_intensity_default": "Suggested 1-10 motion intensity default for this concept archetype, overridable via the UI slider"
+  }
+}

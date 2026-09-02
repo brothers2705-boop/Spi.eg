@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  visionforge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: visionforge-ai:latest
+    container_name: visionforge-ai
+    ports:
+      - "8501:8501"
+    environment:
+      # Optional: enables Claude-powered narrative enrichment.
+      # Leave unset to run VisionForge fully offline (default behavior).
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    volumes:
+      # Persists the SQLite campaign history and lets the reference
+      # dataset be hot-edited by an agency admin without a rebuild.
+      - visionforge_data:/app/data
+      - ./dataset:/app/dataset
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  visionforge_data:
+    driver: local
