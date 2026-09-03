@@ -1,0 +1,1069 @@
+{
+  "schema_version": "1.0",
+  "prompts": [
+    {
+      "name": "Watches \u2014 Product Hero",
+      "slug": "luxury-watches-product-hero-1",
+      "category": "Luxury",
+      "subcategory": "Watches",
+      "description": "A luxury product hero concept built around a titanium dive watch with a sapphire crystal face, using Macro Orbital Pan to reveal a matte obsidian pedestal inside a minimalist gallery space.",
+      "core_creative_concept": "A titanium dive watch with a sapphire crystal face rotates slowly as a single directional light sweeps across the bezel, staged in a matte obsidian pedestal inside a minimalist gallery space, built to communicate luxury-grade craft through deliberate camera kinematics.",
+      "subject": "A titanium dive watch with a sapphire crystal face",
+      "environment": "a matte obsidian pedestal inside a minimalist gallery space",
+      "action": "rotates slowly as a single directional light sweeps across the bezel",
+      "shot_type": "Product Hero",
+      "camera_movement": "Macro Orbital Pan",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "soft directional studio key light with dramatic falloff, champagne-gold rim light",
+      "physics_realism_notes": "specular highlights must travel continuously across the crystal with zero popping between frames",
+      "final_master_prompt": "A titanium dive watch with a sapphire crystal face, rotates slowly as a single directional light sweeps across the bezel, set within a matte obsidian pedestal inside a minimalist gallery space. Shot type: Product Hero. Camera movement: Macro Orbital Pan \u2014 360-degree rotation on a 90mm macro cine prime. Lighting: soft directional studio key light with dramatic falloff, champagne-gold rim light. Physics & realism: specular highlights must travel continuously across the crystal with zero popping between frames. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no luxury-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Luma Dream Machine",
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "Luxury",
+        "Watches",
+        "Product Hero",
+        "Macro Orbital Pan"
+      ],
+      "id": "LUX-001"
+    },
+    {
+      "name": "Fragrance \u2014 Product Hero",
+      "slug": "luxury-fragrance-product-hero-2",
+      "category": "Luxury",
+      "subcategory": "Fragrance",
+      "description": "A luxury product hero concept built around a faceted crystal perfume bottle with a gold cap, using High-Speed Slow-Mo to reveal a pool of still black water atop a marble plinth.",
+      "core_creative_concept": "A faceted crystal perfume bottle with a gold cap descends toward the water's surface, triggering a slow-motion ripple at contact, staged in a pool of still black water atop a marble plinth, built to communicate luxury-grade craft through deliberate camera kinematics.",
+      "subject": "A faceted crystal perfume bottle with a gold cap",
+      "environment": "a pool of still black water atop a marble plinth",
+      "action": "descends toward the water's surface, triggering a slow-motion ripple at contact",
+      "shot_type": "Product Hero",
+      "camera_movement": "High-Speed Slow-Mo",
+      "lens_focal_length": "100mm macro cine prime @ 1000fps",
+      "lighting": "hard top-down spotlight carving sharp facet reflections, deep obsidian background",
+      "physics_realism_notes": "ripple propagation and droplet fracture must obey real fluid-dynamics timing at 1000fps",
+      "final_master_prompt": "A faceted crystal perfume bottle with a gold cap, descends toward the water's surface, triggering a slow-motion ripple at contact, set within a pool of still black water atop a marble plinth. Shot type: Product Hero. Camera movement: High-Speed Slow-Mo \u2014 1000fps particle & fracture capture. Lighting: hard top-down spotlight carving sharp facet reflections, deep obsidian background. Physics & realism: ripple propagation and droplet fracture must obey real fluid-dynamics timing at 1000fps. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no luxury-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Luxury",
+        "Fragrance",
+        "Product Hero",
+        "High-Speed Slow-Mo"
+      ],
+      "id": "LUX-002"
+    },
+    {
+      "name": "Leather Goods \u2014 Editorial Wide",
+      "slug": "luxury-leather-goods-editorial-wide-3",
+      "category": "Luxury",
+      "subcategory": "Leather Goods",
+      "description": "A luxury editorial wide concept built around a hand-stitched leather handbag, using Dolly Push-In to reveal a sunlit heritage atelier with dust motes drifting in the air.",
+      "core_creative_concept": "A hand-stitched leather handbag the camera glides past the bag's silhouette, dust catching the light, staged in a sunlit heritage atelier with dust motes drifting in the air, built to communicate luxury-grade craft through deliberate camera kinematics.",
+      "subject": "A hand-stitched leather handbag",
+      "environment": "a sunlit heritage atelier with dust motes drifting in the air",
+      "action": "the camera glides past the bag's silhouette, dust catching the light",
+      "shot_type": "Editorial Wide",
+      "camera_movement": "Dolly Push-In",
+      "lens_focal_length": "50mm cine prime",
+      "lighting": "warm low-angle window light with visible volumetric shafts",
+      "physics_realism_notes": "dust motes must respect parallax depth and slow ambient drift, no teleporting particles",
+      "final_master_prompt": "A hand-stitched leather handbag, the camera glides past the bag's silhouette, dust catching the light, set within a sunlit heritage atelier with dust motes drifting in the air. Shot type: Editorial Wide. Camera movement: Dolly Push-In \u2014 Smooth optical axis compression and hero framing. Lighting: warm low-angle window light with visible volumetric shafts. Physics & realism: dust motes must respect parallax depth and slow ambient drift, no teleporting particles. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no luxury-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Luxury",
+        "Leather Goods",
+        "Editorial Wide",
+        "Dolly Push-In"
+      ],
+      "id": "LUX-003"
+    },
+    {
+      "name": "Jewelry \u2014 Macro Detail",
+      "slug": "luxury-jewelry-macro-detail-4",
+      "category": "Luxury",
+      "subcategory": "Jewelry",
+      "description": "A luxury macro detail concept built around a pav\u00e9 diamond bracelet on a velvet cushion, using Overhead Zenith Top-Down to reveal an all-black studio void with a single spotlight cone.",
+      "core_creative_concept": "A pav\u00e9 diamond bracelet on a velvet cushion the camera orbits the cushion as stones catch and release sparkle, staged in an all-black studio void with a single spotlight cone, built to communicate luxury-grade craft through deliberate camera kinematics.",
+      "subject": "A pav\u00e9 diamond bracelet on a velvet cushion",
+      "environment": "an all-black studio void with a single spotlight cone",
+      "action": "the camera orbits the cushion as stones catch and release sparkle",
+      "shot_type": "Macro Detail",
+      "camera_movement": "Overhead Zenith Top-Down",
+      "lens_focal_length": "50mm cine prime, top-down rig",
+      "lighting": "focused spotlight with narrow beam angle, near-total ambient darkness",
+      "physics_realism_notes": "sparkle bloom must be physically anchored to stone facets, not floating over geometry",
+      "final_master_prompt": "A pav\u00e9 diamond bracelet on a velvet cushion, the camera orbits the cushion as stones catch and release sparkle, set within an all-black studio void with a single spotlight cone. Shot type: Macro Detail. Camera movement: Overhead Zenith Top-Down \u2014 Axial rotation with clean symmetry. Lighting: focused spotlight with narrow beam angle, near-total ambient darkness. Physics & realism: sparkle bloom must be physically anchored to stone facets, not floating over geometry. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no luxury-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "Luxury",
+        "Jewelry",
+        "Macro Detail",
+        "Overhead Zenith Top-Down"
+      ],
+      "id": "LUX-004"
+    },
+    {
+      "name": "Serum \u2014 Macro Detail",
+      "slug": "skincare-serum-macro-detail-5",
+      "category": "Skincare",
+      "subcategory": "Serum",
+      "description": "A skincare macro detail concept built around a dropper bottle of amber facial serum, using High-Speed Slow-Mo to reveal a pale sage countertop beside a sliced aloe leaf and water droplets.",
+      "core_creative_concept": "A dropper bottle of amber facial serum a single droplet falls from the dropper and lands on the counter in slow motion, staged in a pale sage countertop beside a sliced aloe leaf and water droplets, built to communicate skincare-grade craft through deliberate camera kinematics.",
+      "subject": "A dropper bottle of amber facial serum",
+      "environment": "a pale sage countertop beside a sliced aloe leaf and water droplets",
+      "action": "a single droplet falls from the dropper and lands on the counter in slow motion",
+      "shot_type": "Macro Detail",
+      "camera_movement": "High-Speed Slow-Mo",
+      "lens_focal_length": "100mm macro cine prime @ 1000fps",
+      "lighting": "diffused natural window light with a soft golden bounce",
+      "physics_realism_notes": "droplet surface tension and splash crown must follow accurate fluid physics",
+      "final_master_prompt": "A dropper bottle of amber facial serum, a single droplet falls from the dropper and lands on the counter in slow motion, set within a pale sage countertop beside a sliced aloe leaf and water droplets. Shot type: Macro Detail. Camera movement: High-Speed Slow-Mo \u2014 1000fps particle & fracture capture. Lighting: diffused natural window light with a soft golden bounce. Physics & realism: droplet surface tension and splash crown must follow accurate fluid physics. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no skincare-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Luma Dream Machine",
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "Skincare",
+        "Serum",
+        "Macro Detail",
+        "High-Speed Slow-Mo"
+      ],
+      "id": "SKN-001"
+    },
+    {
+      "name": "Moisturizer \u2014 Product Hero",
+      "slug": "skincare-moisturizer-product-hero-6",
+      "category": "Skincare",
+      "subcategory": "Moisturizer",
+      "description": "A skincare product hero concept built around an opaque porcelain jar of whipped cream moisturizer, using Macro Orbital Pan to reveal a bathroom shelf softened by steam and morning light.",
+      "core_creative_concept": "An opaque porcelain jar of whipped cream moisturizer the lid lifts as the camera arcs around to reveal the whipped texture, staged in a bathroom shelf softened by steam and morning light, built to communicate skincare-grade craft through deliberate camera kinematics.",
+      "subject": "An opaque porcelain jar of whipped cream moisturizer",
+      "environment": "a bathroom shelf softened by steam and morning light",
+      "action": "the lid lifts as the camera arcs around to reveal the whipped texture",
+      "shot_type": "Product Hero",
+      "camera_movement": "Macro Orbital Pan",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "soft diffused light with gentle glow, blush and porcelain palette",
+      "physics_realism_notes": "steam density must thin gradually and never clip through solid geometry",
+      "final_master_prompt": "An opaque porcelain jar of whipped cream moisturizer, the lid lifts as the camera arcs around to reveal the whipped texture, set within a bathroom shelf softened by steam and morning light. Shot type: Product Hero. Camera movement: Macro Orbital Pan \u2014 360-degree rotation on a 90mm macro cine prime. Lighting: soft diffused light with gentle glow, blush and porcelain palette. Physics & realism: steam density must thin gradually and never clip through solid geometry. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no skincare-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Skincare",
+        "Moisturizer",
+        "Product Hero",
+        "Macro Orbital Pan"
+      ],
+      "id": "SKN-002"
+    },
+    {
+      "name": "Sunscreen \u2014 Lifestyle Wide",
+      "slug": "skincare-sunscreen-lifestyle-wide-7",
+      "category": "Skincare",
+      "subcategory": "Sunscreen",
+      "description": "A skincare lifestyle wide concept built around a matte tube of mineral sunscreen, using Low-Angle Tracking to reveal a sun-bleached poolside deck with dappled light.",
+      "core_creative_concept": "A matte tube of mineral sunscreen the camera tracks low alongside the tube as a hand lifts it into frame, staged in a sun-bleached poolside deck with dappled light, built to communicate skincare-grade craft through deliberate camera kinematics.",
+      "subject": "A matte tube of mineral sunscreen",
+      "environment": "a sun-bleached poolside deck with dappled light",
+      "action": "the camera tracks low alongside the tube as a hand lifts it into frame",
+      "shot_type": "Lifestyle Wide",
+      "camera_movement": "Low-Angle Tracking",
+      "lens_focal_length": "35mm cine prime",
+      "lighting": "bright even daylight with soft dappled shadow movement",
+      "physics_realism_notes": "dappled shadow patterns should shift naturally with implied cloud/leaf motion overhead",
+      "final_master_prompt": "A matte tube of mineral sunscreen, the camera tracks low alongside the tube as a hand lifts it into frame, set within a sun-bleached poolside deck with dappled light. Shot type: Lifestyle Wide. Camera movement: Low-Angle Tracking \u2014 High-parallax ground-level tracking. Lighting: bright even daylight with soft dappled shadow movement. Physics & realism: dappled shadow patterns should shift naturally with implied cloud/leaf motion overhead. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no skincare-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Skincare",
+        "Sunscreen",
+        "Lifestyle Wide",
+        "Low-Angle Tracking"
+      ],
+      "id": "SKN-003"
+    },
+    {
+      "name": "Cleanser \u2014 Macro Detail",
+      "slug": "skincare-cleanser-macro-detail-8",
+      "category": "Skincare",
+      "subcategory": "Cleanser",
+      "description": "A skincare macro detail concept built around a pump bottle of gel cleanser with visible micro-bubbles, using Overhead Zenith Top-Down to reveal a wet marble sink basin catching soft bathroom light.",
+      "core_creative_concept": "A pump bottle of gel cleanser with visible micro-bubbles a dispensed pump of gel spreads and catches light as it settles, staged in a wet marble sink basin catching soft bathroom light, built to communicate skincare-grade craft through deliberate camera kinematics.",
+      "subject": "A pump bottle of gel cleanser with visible micro-bubbles",
+      "environment": "a wet marble sink basin catching soft bathroom light",
+      "action": "a dispensed pump of gel spreads and catches light as it settles",
+      "shot_type": "Macro Detail",
+      "camera_movement": "Overhead Zenith Top-Down",
+      "lens_focal_length": "50mm cine prime, top-down rig",
+      "lighting": "cool diffused overhead light, sage-green and porcelain palette",
+      "physics_realism_notes": "gel viscosity and bubble buoyancy must be internally consistent frame to frame",
+      "final_master_prompt": "A pump bottle of gel cleanser with visible micro-bubbles, a dispensed pump of gel spreads and catches light as it settles, set within a wet marble sink basin catching soft bathroom light. Shot type: Macro Detail. Camera movement: Overhead Zenith Top-Down \u2014 Axial rotation with clean symmetry. Lighting: cool diffused overhead light, sage-green and porcelain palette. Physics & realism: gel viscosity and bubble buoyancy must be internally consistent frame to frame. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no skincare-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "Skincare",
+        "Cleanser",
+        "Macro Detail",
+        "Overhead Zenith Top-Down"
+      ],
+      "id": "SKN-004"
+    },
+    {
+      "name": "Beverage \u2014 Lifestyle Wide",
+      "slug": "food-beverage-lifestyle-wide-9",
+      "category": "Food",
+      "subcategory": "Beverage",
+      "description": "A food lifestyle wide concept built around a chilled glass bottle of craft cola with condensation, using Crane Boom Up to reveal a rustic wooden table in dappled outdoor shade.",
+      "core_creative_concept": "A chilled glass bottle of craft cola with condensation the camera cranes up from a beaded-condensation close-up to a full table wide shot, staged in a rustic wooden table in dappled outdoor shade, built to communicate food-grade craft through deliberate camera kinematics.",
+      "subject": "A chilled glass bottle of craft cola with condensation",
+      "environment": "a rustic wooden table in dappled outdoor shade",
+      "action": "the camera cranes up from a beaded-condensation close-up to a full table wide shot",
+      "shot_type": "Lifestyle Wide",
+      "camera_movement": "Crane Boom Up",
+      "lens_focal_length": "40mm cine prime, telescoping crane",
+      "lighting": "warm dappled sunlight with soft contrast falloff",
+      "physics_realism_notes": "condensation beads must drip downward under consistent gravity, no reversed droplets",
+      "final_master_prompt": "A chilled glass bottle of craft cola with condensation, the camera cranes up from a beaded-condensation close-up to a full table wide shot, set within a rustic wooden table in dappled outdoor shade. Shot type: Lifestyle Wide. Camera movement: Crane Boom Up \u2014 Macro ground detail elevating to contextual wide hero shot. Lighting: warm dappled sunlight with soft contrast falloff. Physics & realism: condensation beads must drip downward under consistent gravity, no reversed droplets. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no food-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Luma Dream Machine",
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "Food",
+        "Beverage",
+        "Lifestyle Wide",
+        "Crane Boom Up"
+      ],
+      "id": "FOOD-001"
+    },
+    {
+      "name": "Bakery \u2014 Macro Detail",
+      "slug": "food-bakery-macro-detail-10",
+      "category": "Food",
+      "subcategory": "Bakery",
+      "description": "A food macro detail concept built around a golden croissant with visible flaking layers, using Low-Angle Tracking to reveal a marble bakery counter dusted with flour.",
+      "core_creative_concept": "A golden croissant with visible flaking layers the camera tracks low across the counter as steam rises from the croissant, staged in a marble bakery counter dusted with flour, built to communicate food-grade craft through deliberate camera kinematics.",
+      "subject": "A golden croissant with visible flaking layers",
+      "environment": "a marble bakery counter dusted with flour",
+      "action": "the camera tracks low across the counter as steam rises from the croissant",
+      "shot_type": "Macro Detail",
+      "camera_movement": "Low-Angle Tracking",
+      "lens_focal_length": "35mm cine prime",
+      "lighting": "warm tungsten bakery light with soft window fill",
+      "physics_realism_notes": "steam must dissipate at a plausible rate and never loop or freeze mid-rise",
+      "final_master_prompt": "A golden croissant with visible flaking layers, the camera tracks low across the counter as steam rises from the croissant, set within a marble bakery counter dusted with flour. Shot type: Macro Detail. Camera movement: Low-Angle Tracking \u2014 High-parallax ground-level tracking. Lighting: warm tungsten bakery light with soft window fill. Physics & realism: steam must dissipate at a plausible rate and never loop or freeze mid-rise. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no food-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Food",
+        "Bakery",
+        "Macro Detail",
+        "Low-Angle Tracking"
+      ],
+      "id": "FOOD-002"
+    },
+    {
+      "name": "Confectionery \u2014 Macro Detail",
+      "slug": "food-confectionery-macro-detail-11",
+      "category": "Food",
+      "subcategory": "Confectionery",
+      "description": "A food macro detail concept built around a dark chocolate bar breaking cleanly in half, using High-Speed Slow-Mo to reveal a matte black studio surface with a single hard light.",
+      "core_creative_concept": "A dark chocolate bar breaking cleanly in half the bar snaps in slow motion, releasing a fine dust of cocoa particles, staged in a matte black studio surface with a single hard light, built to communicate food-grade craft through deliberate camera kinematics.",
+      "subject": "A dark chocolate bar breaking cleanly in half",
+      "environment": "a matte black studio surface with a single hard light",
+      "action": "the bar snaps in slow motion, releasing a fine dust of cocoa particles",
+      "shot_type": "Macro Detail",
+      "camera_movement": "High-Speed Slow-Mo",
+      "lens_focal_length": "100mm macro cine prime @ 1000fps",
+      "lighting": "hard directional spotlight emphasizing the fracture edge",
+      "physics_realism_notes": "fracture propagation and particle scatter must follow brittle-material physics",
+      "final_master_prompt": "A dark chocolate bar breaking cleanly in half, the bar snaps in slow motion, releasing a fine dust of cocoa particles, set within a matte black studio surface with a single hard light. Shot type: Macro Detail. Camera movement: High-Speed Slow-Mo \u2014 1000fps particle & fracture capture. Lighting: hard directional spotlight emphasizing the fracture edge. Physics & realism: fracture propagation and particle scatter must follow brittle-material physics. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no food-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Food",
+        "Confectionery",
+        "Macro Detail",
+        "High-Speed Slow-Mo"
+      ],
+      "id": "FOOD-003"
+    },
+    {
+      "name": "Fresh Produce \u2014 Product Hero",
+      "slug": "food-fresh-produce-product-hero-12",
+      "category": "Food",
+      "subcategory": "Fresh Produce",
+      "description": "A food product hero concept built around a halved citrus fruit with visible juice droplets, using Macro Orbital Pan to reveal a sunlit kitchen counter with soft natural shadow.",
+      "core_creative_concept": "A halved citrus fruit with visible juice droplets the camera orbits the fruit half as juice glistens under moving light, staged in a sunlit kitchen counter with soft natural shadow, built to communicate food-grade craft through deliberate camera kinematics.",
+      "subject": "A halved citrus fruit with visible juice droplets",
+      "environment": "a sunlit kitchen counter with soft natural shadow",
+      "action": "the camera orbits the fruit half as juice glistens under moving light",
+      "shot_type": "Product Hero",
+      "camera_movement": "Macro Orbital Pan",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "bright natural daylight, high saturation and punchy contrast",
+      "physics_realism_notes": "juice sheen and droplet placement must stay fixed to the fruit surface across the orbit",
+      "final_master_prompt": "A halved citrus fruit with visible juice droplets, the camera orbits the fruit half as juice glistens under moving light, set within a sunlit kitchen counter with soft natural shadow. Shot type: Product Hero. Camera movement: Macro Orbital Pan \u2014 360-degree rotation on a 90mm macro cine prime. Lighting: bright natural daylight, high saturation and punchy contrast. Physics & realism: juice sheen and droplet placement must stay fixed to the fruit surface across the orbit. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no food-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "Food",
+        "Fresh Produce",
+        "Product Hero",
+        "Macro Orbital Pan"
+      ],
+      "id": "FOOD-004"
+    },
+    {
+      "name": "Wearables \u2014 Product Hero",
+      "slug": "tech-wearables-product-hero-13",
+      "category": "Tech",
+      "subcategory": "Wearables",
+      "description": "A tech product hero concept built around a matte-black smart ring with a brushed titanium band, using Macro Orbital Pan to reveal a graphite studio void with a single cool rim light.",
+      "core_creative_concept": "A matte-black smart ring with a brushed titanium band the ring rotates in place as a thin blue light pulse travels its circumference, staged in a graphite studio void with a single cool rim light, built to communicate tech-grade craft through deliberate camera kinematics.",
+      "subject": "A matte-black smart ring with a brushed titanium band",
+      "environment": "a graphite studio void with a single cool rim light",
+      "action": "the ring rotates in place as a thin blue light pulse travels its circumference",
+      "shot_type": "Product Hero",
+      "camera_movement": "Macro Orbital Pan",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "crisp rim lighting with subtle volumetric haze, graphite and electric-blue palette",
+      "physics_realism_notes": "the light pulse must maintain constant travel speed with no stutter across the loop",
+      "final_master_prompt": "A matte-black smart ring with a brushed titanium band, the ring rotates in place as a thin blue light pulse travels its circumference, set within a graphite studio void with a single cool rim light. Shot type: Product Hero. Camera movement: Macro Orbital Pan \u2014 360-degree rotation on a 90mm macro cine prime. Lighting: crisp rim lighting with subtle volumetric haze, graphite and electric-blue palette. Physics & realism: the light pulse must maintain constant travel speed with no stutter across the loop. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no tech-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Luma Dream Machine",
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "Tech",
+        "Wearables",
+        "Product Hero",
+        "Macro Orbital Pan"
+      ],
+      "id": "TECH-001"
+    },
+    {
+      "name": "Audio \u2014 Product Hero",
+      "slug": "tech-audio-product-hero-14",
+      "category": "Tech",
+      "subcategory": "Audio",
+      "description": "A tech product hero concept built around a pair of wireless earbuds resting in an open charging case, using Dolly Push-In to reveal a brushed-aluminum desk with a soft window backlight.",
+      "core_creative_concept": "A pair of wireless earbuds resting in an open charging case the camera pushes in as the case lid closes with a crisp mechanical motion, staged in a brushed-aluminum desk with a soft window backlight, built to communicate tech-grade craft through deliberate camera kinematics.",
+      "subject": "A pair of wireless earbuds resting in an open charging case",
+      "environment": "a brushed-aluminum desk with a soft window backlight",
+      "action": "the camera pushes in as the case lid closes with a crisp mechanical motion",
+      "shot_type": "Product Hero",
+      "camera_movement": "Dolly Push-In",
+      "lens_focal_length": "50mm cine prime",
+      "lighting": "cool white key light with a soft blue accent kicker",
+      "physics_realism_notes": "the lid hinge must move with consistent mechanical timing and no clipping through the case body",
+      "final_master_prompt": "A pair of wireless earbuds resting in an open charging case, the camera pushes in as the case lid closes with a crisp mechanical motion, set within a brushed-aluminum desk with a soft window backlight. Shot type: Product Hero. Camera movement: Dolly Push-In \u2014 Smooth optical axis compression and hero framing. Lighting: cool white key light with a soft blue accent kicker. Physics & realism: the lid hinge must move with consistent mechanical timing and no clipping through the case body. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no tech-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Tech",
+        "Audio",
+        "Product Hero",
+        "Dolly Push-In"
+      ],
+      "id": "TECH-002"
+    },
+    {
+      "name": "Computing \u2014 Editorial Wide",
+      "slug": "tech-computing-editorial-wide-15",
+      "category": "Tech",
+      "subcategory": "Computing",
+      "description": "A tech editorial wide concept built around a slim aluminum laptop opening to reveal its display, using Crane Boom Up to reveal a minimalist glass-topped desk in a softly lit office.",
+      "core_creative_concept": "A slim aluminum laptop opening to reveal its display the camera cranes from the hinge up to a full frontal reveal of the glowing screen, staged in a minimalist glass-topped desk in a softly lit office, built to communicate tech-grade craft through deliberate camera kinematics.",
+      "subject": "A slim aluminum laptop opening to reveal its display",
+      "environment": "a minimalist glass-topped desk in a softly lit office",
+      "action": "the camera cranes from the hinge up to a full frontal reveal of the glowing screen",
+      "shot_type": "Editorial Wide",
+      "camera_movement": "Crane Boom Up",
+      "lens_focal_length": "40mm cine prime, telescoping crane",
+      "lighting": "cool white studio light with electric-blue screen glow bounce",
+      "physics_realism_notes": "screen glow intensity must ramp smoothly as the lid angle increases, no sudden pop-in",
+      "final_master_prompt": "A slim aluminum laptop opening to reveal its display, the camera cranes from the hinge up to a full frontal reveal of the glowing screen, set within a minimalist glass-topped desk in a softly lit office. Shot type: Editorial Wide. Camera movement: Crane Boom Up \u2014 Macro ground detail elevating to contextual wide hero shot. Lighting: cool white studio light with electric-blue screen glow bounce. Physics & realism: screen glow intensity must ramp smoothly as the lid angle increases, no sudden pop-in. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no tech-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Tech",
+        "Computing",
+        "Editorial Wide",
+        "Crane Boom Up"
+      ],
+      "id": "TECH-003"
+    },
+    {
+      "name": "Mobile \u2014 Macro Detail",
+      "slug": "tech-mobile-macro-detail-16",
+      "category": "Tech",
+      "subcategory": "Mobile",
+      "description": "A tech macro detail concept built around a flagship smartphone with a reflective glass back, using Overhead Zenith Top-Down to reveal a dark reflective studio floor with a single overhead softbox.",
+      "core_creative_concept": "A flagship smartphone with a reflective glass back the phone rotates slowly as the softbox reflection travels across the glass, staged in a dark reflective studio floor with a single overhead softbox, built to communicate tech-grade craft through deliberate camera kinematics.",
+      "subject": "A flagship smartphone with a reflective glass back",
+      "environment": "a dark reflective studio floor with a single overhead softbox",
+      "action": "the phone rotates slowly as the softbox reflection travels across the glass",
+      "shot_type": "Macro Detail",
+      "camera_movement": "Overhead Zenith Top-Down",
+      "lens_focal_length": "50mm cine prime, top-down rig",
+      "lighting": "single soft overhead source, graphite and cool-white palette",
+      "physics_realism_notes": "the reflected softbox streak must move continuously with the rotation, never jump",
+      "final_master_prompt": "A flagship smartphone with a reflective glass back, the phone rotates slowly as the softbox reflection travels across the glass, set within a dark reflective studio floor with a single overhead softbox. Shot type: Macro Detail. Camera movement: Overhead Zenith Top-Down \u2014 Axial rotation with clean symmetry. Lighting: single soft overhead source, graphite and cool-white palette. Physics & realism: the reflected softbox streak must move continuously with the rotation, never jump. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no tech-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "Tech",
+        "Mobile",
+        "Macro Detail",
+        "Overhead Zenith Top-Down"
+      ],
+      "id": "TECH-004"
+    },
+    {
+      "name": "Apparel Campaign \u2014 Lifestyle Wide",
+      "slug": "marketing-apparel-campaign-lifestyle-wide-17",
+      "category": "Marketing",
+      "subcategory": "Apparel Campaign",
+      "description": "A marketing lifestyle wide concept built around a model wearing a technical outdoor jacket, using Low-Angle Tracking to reveal a windswept mountain ridge at golden hour.",
+      "core_creative_concept": "A model wearing a technical outdoor jacket the camera tracks alongside the model as fabric ripples in the wind, staged in a windswept mountain ridge at golden hour, built to communicate marketing-grade craft through deliberate camera kinematics.",
+      "subject": "A model wearing a technical outdoor jacket",
+      "environment": "a windswept mountain ridge at golden hour",
+      "action": "the camera tracks alongside the model as fabric ripples in the wind",
+      "shot_type": "Lifestyle Wide",
+      "camera_movement": "Low-Angle Tracking",
+      "lens_focal_length": "35mm cine prime",
+      "lighting": "low-angle golden-hour light with long dramatic shadows",
+      "physics_realism_notes": "fabric ripple must respond to a consistent wind vector, no conflicting flutter directions",
+      "final_master_prompt": "A model wearing a technical outdoor jacket, the camera tracks alongside the model as fabric ripples in the wind, set within a windswept mountain ridge at golden hour. Shot type: Lifestyle Wide. Camera movement: Low-Angle Tracking \u2014 High-parallax ground-level tracking. Lighting: low-angle golden-hour light with long dramatic shadows. Physics & realism: fabric ripple must respond to a consistent wind vector, no conflicting flutter directions. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no marketing-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Luma Dream Machine",
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "Marketing",
+        "Apparel Campaign",
+        "Lifestyle Wide",
+        "Low-Angle Tracking"
+      ],
+      "id": "MKT-001"
+    },
+    {
+      "name": "Automotive Launch \u2014 Hero Reveal",
+      "slug": "marketing-automotive-launch-hero-reveal-18",
+      "category": "Marketing",
+      "subcategory": "Automotive Launch",
+      "description": "A marketing hero reveal concept built around a performance sedan parked on a wet asphalt runway, using Low-Angle Tracking to reveal an overcast test track at dusk with ambient city glow.",
+      "core_creative_concept": "A performance sedan parked on a wet asphalt runway the camera arcs low around the front quarter panel as reflections streak across the paint, staged in an overcast test track at dusk with ambient city glow, built to communicate marketing-grade craft through deliberate camera kinematics.",
+      "subject": "A performance sedan parked on a wet asphalt runway",
+      "environment": "an overcast test track at dusk with ambient city glow",
+      "action": "the camera arcs low around the front quarter panel as reflections streak across the paint",
+      "shot_type": "Hero Reveal",
+      "camera_movement": "Low-Angle Tracking",
+      "lens_focal_length": "35mm cine prime",
+      "lighting": "low-angle cool ambient light with specular highlights on wet asphalt",
+      "physics_realism_notes": "wet-road reflections must track the arc's parallax accurately across the paint and ground plane",
+      "final_master_prompt": "A performance sedan parked on a wet asphalt runway, the camera arcs low around the front quarter panel as reflections streak across the paint, set within an overcast test track at dusk with ambient city glow. Shot type: Hero Reveal. Camera movement: Low-Angle Tracking \u2014 High-parallax ground-level tracking. Lighting: low-angle cool ambient light with specular highlights on wet asphalt. Physics & realism: wet-road reflections must track the arc's parallax accurately across the paint and ground plane. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no marketing-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Marketing",
+        "Automotive Launch",
+        "Hero Reveal",
+        "Low-Angle Tracking"
+      ],
+      "id": "MKT-002"
+    },
+    {
+      "name": "Beverage Campaign \u2014 Macro Detail",
+      "slug": "marketing-beverage-campaign-macro-detail-19",
+      "category": "Marketing",
+      "subcategory": "Beverage Campaign",
+      "description": "A marketing macro detail concept built around a can of sparkling water mid-splash with citrus wedges, using High-Speed Slow-Mo to reveal a bright saturated studio backdrop in punchy primary color.",
+      "core_creative_concept": "A can of sparkling water mid-splash with citrus wedges the can is captured mid-impact as droplets and citrus fragments freeze in motion, staged in a bright saturated studio backdrop in punchy primary color, built to communicate marketing-grade craft through deliberate camera kinematics.",
+      "subject": "A can of sparkling water mid-splash with citrus wedges",
+      "environment": "a bright saturated studio backdrop in punchy primary color",
+      "action": "the can is captured mid-impact as droplets and citrus fragments freeze in motion",
+      "shot_type": "Macro Detail",
+      "camera_movement": "High-Speed Slow-Mo",
+      "lens_focal_length": "100mm macro cine prime @ 1000fps",
+      "lighting": "bright even commercial lighting, saturated primary color palette",
+      "physics_realism_notes": "splash crown geometry and citrus fragment trajectory must obey consistent impact physics",
+      "final_master_prompt": "A can of sparkling water mid-splash with citrus wedges, the can is captured mid-impact as droplets and citrus fragments freeze in motion, set within a bright saturated studio backdrop in punchy primary color. Shot type: Macro Detail. Camera movement: High-Speed Slow-Mo \u2014 1000fps particle & fracture capture. Lighting: bright even commercial lighting, saturated primary color palette. Physics & realism: splash crown geometry and citrus fragment trajectory must obey consistent impact physics. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no marketing-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "Marketing",
+        "Beverage Campaign",
+        "Macro Detail",
+        "High-Speed Slow-Mo"
+      ],
+      "id": "MKT-003"
+    },
+    {
+      "name": "Footwear Campaign \u2014 Lifestyle Wide",
+      "slug": "marketing-footwear-campaign-lifestyle-wide-20",
+      "category": "Marketing",
+      "subcategory": "Footwear Campaign",
+      "description": "A marketing lifestyle wide concept built around a running shoe mid-stride kicking up dust, using Low-Angle Tracking to reveal a sunbaked outdoor track under a wide open sky.",
+      "core_creative_concept": "A running shoe mid-stride kicking up dust the camera tracks low behind the shoe as dust plumes trail off each footfall, staged in a sunbaked outdoor track under a wide open sky, built to communicate marketing-grade craft through deliberate camera kinematics.",
+      "subject": "A running shoe mid-stride kicking up dust",
+      "environment": "a sunbaked outdoor track under a wide open sky",
+      "action": "the camera tracks low behind the shoe as dust plumes trail off each footfall",
+      "shot_type": "Lifestyle Wide",
+      "camera_movement": "Low-Angle Tracking",
+      "lens_focal_length": "35mm cine prime",
+      "lighting": "harsh directional sunlight with long crisp shadows",
+      "physics_realism_notes": "dust plume dispersion must lag realistically behind the foot's contact point",
+      "final_master_prompt": "A running shoe mid-stride kicking up dust, the camera tracks low behind the shoe as dust plumes trail off each footfall, set within a sunbaked outdoor track under a wide open sky. Shot type: Lifestyle Wide. Camera movement: Low-Angle Tracking \u2014 High-parallax ground-level tracking. Lighting: harsh directional sunlight with long crisp shadows. Physics & realism: dust plume dispersion must lag realistically behind the foot's contact point. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no marketing-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "Marketing",
+        "Footwear Campaign",
+        "Lifestyle Wide",
+        "Low-Angle Tracking"
+      ],
+      "id": "MKT-004"
+    },
+    {
+      "name": "Billboard Hero \u2014 Hero Reveal",
+      "slug": "ooh-billboard-hero-hero-reveal-21",
+      "category": "OOH",
+      "subcategory": "Billboard Hero",
+      "description": "A ooh hero reveal concept built around a flagship handbag suspended against a stark colored backdrop, using Handheld Cinematic to reveal an oversized outdoor billboard canvas with bold negative space.",
+      "core_creative_concept": "A flagship handbag suspended against a stark colored backdrop the camera holds a slow handheld drift across the product for an organic billboard loop, staged in an oversized outdoor billboard canvas with bold negative space, built to communicate ooh-grade craft through deliberate camera kinematics.",
+      "subject": "A flagship handbag suspended against a stark colored backdrop",
+      "environment": "an oversized outdoor billboard canvas with bold negative space",
+      "action": "the camera holds a slow handheld drift across the product for an organic billboard loop",
+      "shot_type": "Hero Reveal",
+      "camera_movement": "Handheld Cinematic",
+      "lens_focal_length": "35mm cine prime, handheld rig",
+      "lighting": "bold high-contrast studio lighting built for large-format legibility at a distance",
+      "physics_realism_notes": "handheld micro-jitter must stay subtle enough not to blur fine product edges at billboard scale",
+      "final_master_prompt": "A flagship handbag suspended against a stark colored backdrop, the camera holds a slow handheld drift across the product for an organic billboard loop, set within an oversized outdoor billboard canvas with bold negative space. Shot type: Hero Reveal. Camera movement: Handheld Cinematic \u2014 35mm organic human inertia and optical micro-jitters. Lighting: bold high-contrast studio lighting built for large-format legibility at a distance. Physics & realism: handheld micro-jitter must stay subtle enough not to blur fine product edges at billboard scale. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no ooh-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Luma Dream Machine",
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "OOH",
+        "Billboard Hero",
+        "Hero Reveal",
+        "Handheld Cinematic"
+      ],
+      "id": "OOH-001"
+    },
+    {
+      "name": "Transit Ad \u2014 Hero Reveal",
+      "slug": "ooh-transit-ad-hero-reveal-22",
+      "category": "OOH",
+      "subcategory": "Transit Ad",
+      "description": "A ooh hero reveal concept built around a sneaker silhouette rendered in bold graphic color blocking, using Dolly Push-In to reveal a subway platform wall mockup with motion-blurred passersby.",
+      "core_creative_concept": "A sneaker silhouette rendered in bold graphic color blocking the camera pushes slowly toward the sneaker as background commuters blur past, staged in a subway platform wall mockup with motion-blurred passersby, built to communicate ooh-grade craft through deliberate camera kinematics.",
+      "subject": "A sneaker silhouette rendered in bold graphic color blocking",
+      "environment": "a subway platform wall mockup with motion-blurred passersby",
+      "action": "the camera pushes slowly toward the sneaker as background commuters blur past",
+      "shot_type": "Hero Reveal",
+      "camera_movement": "Dolly Push-In",
+      "lens_focal_length": "50mm cine prime",
+      "lighting": "bright even commercial lighting with punchy color-blocked backdrop",
+      "physics_realism_notes": "background motion blur must stay decoupled from the sharply held foreground product",
+      "final_master_prompt": "A sneaker silhouette rendered in bold graphic color blocking, the camera pushes slowly toward the sneaker as background commuters blur past, set within a subway platform wall mockup with motion-blurred passersby. Shot type: Hero Reveal. Camera movement: Dolly Push-In \u2014 Smooth optical axis compression and hero framing. Lighting: bright even commercial lighting with punchy color-blocked backdrop. Physics & realism: background motion blur must stay decoupled from the sharply held foreground product. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no ooh-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "OOH",
+        "Transit Ad",
+        "Hero Reveal",
+        "Dolly Push-In"
+      ],
+      "id": "OOH-002"
+    },
+    {
+      "name": "Digital Spectacular \u2014 Hero Reveal",
+      "slug": "ooh-digital-spectacular-hero-reveal-23",
+      "category": "OOH",
+      "subcategory": "Digital Spectacular",
+      "description": "A ooh hero reveal concept built around a beverage can bursting through a wall of colored powder, using Overhead Zenith Top-Down to reveal a massive digital spectacular canvas built for a city square.",
+      "core_creative_concept": "A beverage can bursting through a wall of colored powder the camera holds an overhead top-down view as powder erupts symmetrically outward, staged in a massive digital spectacular canvas built for a city square, built to communicate ooh-grade craft through deliberate camera kinematics.",
+      "subject": "A beverage can bursting through a wall of colored powder",
+      "environment": "a massive digital spectacular canvas built for a city square",
+      "action": "the camera holds an overhead top-down view as powder erupts symmetrically outward",
+      "shot_type": "Hero Reveal",
+      "camera_movement": "Overhead Zenith Top-Down",
+      "lens_focal_length": "50mm cine prime, top-down rig",
+      "lighting": "bright saturated commercial lighting, high-contrast primary color palette",
+      "physics_realism_notes": "powder burst must expand symmetrically from the impact point with decelerating velocity",
+      "final_master_prompt": "A beverage can bursting through a wall of colored powder, the camera holds an overhead top-down view as powder erupts symmetrically outward, set within a massive digital spectacular canvas built for a city square. Shot type: Hero Reveal. Camera movement: Overhead Zenith Top-Down \u2014 Axial rotation with clean symmetry. Lighting: bright saturated commercial lighting, high-contrast primary color palette. Physics & realism: powder burst must expand symmetrically from the impact point with decelerating velocity. Ultra-detailed, photoreal textures, consistent subject identity across the full sequence, no text overlay, no watermark.",
+      "negative_prompt": "no warping, no morphing artifacts, no text overlay, no watermark, no lens flare clipping, no banding, no duplicate limbs, no subject drift, no flicker, no low-resolution textures, no ooh-inappropriate styling, no oversaturation clipping",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "OOH",
+        "Digital Spectacular",
+        "Hero Reveal",
+        "Overhead Zenith Top-Down"
+      ],
+      "id": "OOH-003"
+    },
+    {
+      "id": "LUX-005",
+      "name": "Luxury Watch Macro Mechanics & Dial Cinematography",
+      "slug": "luxury-watch-macro-mechanics",
+      "category": "Luxury",
+      "subcategory": "Timepieces",
+      "description": "Macro inspection of a luxury mechanical watch movement and tourbillon.",
+      "core_creative_concept": "Highlight mechanical precision, micro-gears, and brushed steel reflections.",
+      "subject": "Rose gold tourbillon watch with skeleton dial",
+      "environment": "Dark moody studio setting with reflective black acrylic surface",
+      "action": "Gears rotate smoothly while the camera pans across the tourbillon cage",
+      "shot_type": "Extreme Macro",
+      "camera_movement": "360 Orbital Pan",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "Sharp rim lighting with subtle warm fill",
+      "physics_realism_notes": "Realistic metallic reflections and continuous gear physics",
+      "final_master_prompt": "An extreme macro commercial video of a luxury rose gold tourbillon watch on a reflective black surface. The camera orbits 360 degrees around the open skeleton dial, capturing the intricate mechanical gears turning in slow motion. Shot on a 90mm macro cine lens, cinematic lighting, razor-sharp focus, 4k resolution, 24fps.",
+      "negative_prompt": "CGI look, floating gears, blurry text, plastic reflection, flickering",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "macro",
+        "watch",
+        "luxury",
+        "gold",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "LUX-006",
+      "name": "Haute Couture Silk Dress Flow Editorial",
+      "slug": "haute-couture-silk-dress-flow",
+      "category": "Luxury",
+      "subcategory": "Fashion Editorial",
+      "description": "High-fashion model walking in a flowing emerald green silk gown.",
+      "core_creative_concept": "Capture the fluid movement of silk fabric under dramatic sunlight.",
+      "subject": "Model in flowing emerald silk gown",
+      "environment": "Minimalist concrete architectural courtyard at golden hour",
+      "action": "Model turns slowly as the dress catches wind and billows gracefully",
+      "shot_type": "Full Shot",
+      "camera_movement": "Slow Low-Angle Tracking Push-In",
+      "lens_focal_length": "50mm anamorphic prime",
+      "lighting": "Direct golden hour sunlight with soft shadows",
+      "physics_realism_notes": "Natural cloth dynamics, realistic wind lift, authentic cloth folds",
+      "final_master_prompt": "A cinematic high-fashion video of a model in a stunning emerald green silk gown walking through a concrete minimalist courtyard. The camera tracks slowly from a low angle as wind lifts the flowing silk fabric in slow motion. Warm golden hour sunlight, 50mm anamorphic lens, shallow depth of field, 4k, 24fps.",
+      "negative_prompt": "Plastic fabric, stiff motion, unnatural wind, warped face, low resolution",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "fashion",
+        "silk",
+        "emerald",
+        "editorial",
+        "golden hour"
+      ]
+    },
+    {
+      "id": "SKN-005",
+      "name": "Conscious Chemist Sun Drink Skincare Commercial",
+      "slug": "conscious-chemist-sun-drink-skincare",
+      "category": "Skincare",
+      "subcategory": "Sunscreen & Serum",
+      "description": "Clean, sun-drenched commercial reveal for Conscious Chemist Sun Drink bottle.",
+      "core_creative_concept": "Emphasize hydration, lightweight UV protection, and clean aesthetic.",
+      "subject": "Sun Drink sunscreen bottle with water droplets",
+      "environment": "Bright tropical poolside backdrop with clear turquoise water refractions",
+      "action": "Water splashes gently around the bottle base as sunlight sparkles on the cap",
+      "shot_type": "Medium Close-up",
+      "camera_movement": "Slow Rising Crane Push-in",
+      "lens_focal_length": "85mm cine prime",
+      "lighting": "Bright natural daylight with sparkling caustic refractions",
+      "physics_realism_notes": "Accurate fluid splashes and glass refractions",
+      "final_master_prompt": "A commercial skincare video for Conscious Chemist Sun Drink bottle resting on a wet glass platform near turquoise water. Gentle water droplets splash around the bottle base as sunlight creates caustic light refractions. Shot on an 85mm cine prime, vivid colors, crisp focus, 4k, 24fps.",
+      "negative_prompt": "Murky water, distorted text, cheap plastic texture, flickering shadows",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "skincare",
+        "sunscreen",
+        "water",
+        "tropical",
+        "sunlight"
+      ]
+    },
+    {
+      "id": "SKN-006",
+      "name": "Revolution Skincare Multi Acid Peeling Solution Commercial",
+      "slug": "revolution-skincare-peeling-solution",
+      "category": "Skincare",
+      "subcategory": "Serums",
+      "description": "Macro liquid droplet commercial for Revolution red peeling solution dropper.",
+      "core_creative_concept": "Highlight viscosity, rich red color, and glass dropper precision.",
+      "subject": "Frosted glass dropper bottle with deep red liquid",
+      "environment": "Clean white laboratory setting with backlit glass panel",
+      "action": "A single thick red droplet hangs from the glass pipette and drops slowly",
+      "shot_type": "Macro Close-up",
+      "camera_movement": "Locked Macro Tracking",
+      "lens_focal_length": "100mm macro lens",
+      "lighting": "Soft backlit studio diffusion",
+      "physics_realism_notes": "Realistic liquid surface tension and drip weight",
+      "final_master_prompt": "Macro beauty commercial of Revolution Skincare Multi Acid Peeling Solution. A single viscous ruby-red liquid droplet slowly forms at the tip of a glass dropper before falling in slow motion into a clear pool below. Soft backlighting, clean white laboratory studio, 100mm macro lens, 4k resolution, 24fps.",
+      "negative_prompt": "Watery liquid, unnatural speed, muddy red color, digital noise",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "Luma Dream Machine"
+      ],
+      "tags": [
+        "beauty",
+        "serum",
+        "dropper",
+        "macro",
+        "viscous"
+      ]
+    },
+    {
+      "id": "LUX-007",
+      "name": "Louis Vuitton Pacific Chill Luxury Flacon Commercial",
+      "slug": "louis-vuitton-pacific-chill-commercial",
+      "category": "Luxury",
+      "subcategory": "Fragrances",
+      "description": "Luxury perfume bottle reveal featuring gradient green-blue glass and water mist.",
+      "core_creative_concept": "Evoke ocean breezes, coastal luxury, and fresh citrus notes.",
+      "subject": "Louis Vuitton Pacific Chill gradient perfume bottle and leather case",
+      "environment": "Oceanfront cliffside villa table with sea view",
+      "action": "Fine sea mist drifts past the bottle while the sun hits the metallic cap",
+      "shot_type": "Medium Shot",
+      "camera_movement": "Smooth Slider Track Right",
+      "lens_focal_length": "50mm prime",
+      "lighting": "Natural morning sunlight with soft lens flare",
+      "physics_realism_notes": "Volumetric mist physics and realistic glass refraction",
+      "final_master_prompt": "A luxury commercial shot of Louis Vuitton Pacific Chill fragrance bottle resting next to its monogram leather travel case on a stone table overlooking a sunny ocean coastline. A delicate ocean mist passes over the bottle as warm morning sunlight reflects off the glass. 50mm prime lens, cinematic color grading, 4k, 24fps.",
+      "negative_prompt": "Fake sea, distorted LV logo, blurry glass, overexposed highlights",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "fragrance",
+        "louis vuitton",
+        "ocean",
+        "luxury",
+        "perfume"
+      ]
+    },
+    {
+      "id": "MKT-005",
+      "name": "AI vs Manual Motion Design Workflow Reel",
+      "slug": "ai-vs-manual-motion-workflow",
+      "category": "Marketing",
+      "subcategory": "Tech Comparisons",
+      "description": "Split-screen conceptual motion design comparing manual keyframing with AI generation.",
+      "core_creative_concept": "Highlight speed, technical precision, and modern creative workflows.",
+      "subject": "Dual digital workspaces showing render pipelines and node graphs",
+      "environment": "Dark modern studio desktop setup with neon blue ambient backlighting",
+      "action": "Graphics assemble rapidly on screen with UI wireframes glowing",
+      "shot_type": "Medium Close-up",
+      "camera_movement": "Fast Forward Push-In",
+      "lens_focal_length": "35mm cine prime",
+      "lighting": "Cyberpunk blue and magenta contrast lighting",
+      "physics_realism_notes": "Clean vector geometry and realistic screen bloom",
+      "final_master_prompt": "A dynamic commercial promo showing a side-by-side comparison of 3D motion graphic workflows on sleek monitors in a dark studio. Glowing digital particles, wireframe models, and timeline keyframes assemble rapidly across screen displays. 35mm lens, moody neon blue and magenta lighting, 4k, 24fps.",
+      "negative_prompt": "Glitch artifacts, low detail screens, messy wires, distorted UI",
+      "recommended_models": [
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "motion graphics",
+        "tech",
+        "workflow",
+        "editing",
+        "ai"
+      ]
+    },
+    {
+      "id": "LUX-008",
+      "name": "Seedance 2.5 Luxury Fashion Slow-Motion Commercial",
+      "slug": "seedance-luxury-fashion-slow-mo",
+      "category": "Luxury",
+      "subcategory": "High Fashion",
+      "description": "Dramatic slow-motion fashion impact shot featuring high-contrast studio aesthetics.",
+      "core_creative_concept": "Capture dramatic movement and textile texture at 500fps.",
+      "subject": "Avant-garde fashion outfit with dramatic structured shoulders",
+      "environment": "Dark void studio with a single overhead spot lamp",
+      "action": "Model turns sharply sending fabric dust and subtle sparkles through the light beam",
+      "shot_type": "Medium Full Shot",
+      "camera_movement": "Rapid Slow-Motion Zoom Out",
+      "lens_focal_length": "85mm cine prime",
+      "lighting": "Single high-contrast dramatic overhead spotlight",
+      "physics_realism_notes": "Accurate dust particle float physics and heavy fabric momentum",
+      "final_master_prompt": "A high-impact cinematic fashion commercial shot in extreme slow motion. Model spins in an avant-garde black structured jacket under a intense overhead spotlight in a dark void. Micro particles float through the air beam. 85mm lens, extreme contrast, ultra-sharp detail, 4k, 24fps.",
+      "negative_prompt": "Flat lighting, noisy background, muddy shadows, low motion blur control",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "fashion",
+        "slow motion",
+        "spotlight",
+        "editorial",
+        "black jacket"
+      ]
+    },
+    {
+      "id": "FOOD-005",
+      "name": "Kinder Bueno Premium Packaging Tear & Wafer Split Commercial",
+      "slug": "kinder-bueno-packaging-tear-wafer-split",
+      "category": "Food",
+      "subcategory": "Confectionery",
+      "description": "Kinder Bueno bar packaging tearing open and wafer snapping in mid-air.",
+      "core_creative_concept": "Highlight crispy texture, hazelnut cream, and dynamic food physics.",
+      "subject": "Kinder Bueno chocolate bar and wrapper",
+      "environment": "Clean soft-blue studio cyclorama backdrop",
+      "action": "Wrapper tears open, bar slides out, floats, snaps in half releasing hazelnut cream and cocoa dust",
+      "shot_type": "Macro Shot",
+      "camera_movement": "Dynamic Macro Tracking Orbit",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "Soft bright commercial studio overhead diffusion",
+      "physics_realism_notes": "Crisp wafer fracture, viscous cream flow, fine cocoa powder float",
+      "final_master_prompt": "A continuous, high-end commercial food cinematography sequence. A red-and-white Kinder Bueno packaging automatically tears open to reveal the crispy chocolate-covered wafer sliding into mid-air. The camera orbits dynamically as the bar snaps in half, releasing cocoa dust and revealing creamy hazelnut filling. 90mm macro cine lens, studio lighting, 4k, 24fps.",
+      "negative_prompt": "Plastic chocolate, fake cream, warped packaging, blurry crumbs",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "food",
+        "chocolate",
+        "kinder bueno",
+        "macro",
+        "commercial"
+      ]
+    },
+    {
+      "id": "OOH-004",
+      "name": "Urban Retail OOH Signage & Architectural Lightbox Reel",
+      "slug": "urban-retail-ooh-signage-lightbox",
+      "category": "OOH",
+      "subcategory": "Signage & Display",
+      "description": "Architectural outdoor lightbox sign resolving vector artwork and text at twilight.",
+      "core_creative_concept": "Showcase tactile building materials, acrylic light diffusion, and clean brand graphics.",
+      "subject": "Mounted illuminated acrylic store sign reading DRINKING BOBA",
+      "environment": "Urban brick storefront building exterior during dusk",
+      "action": "Internal LED lights illuminate, graphics materialize crisp and clear on the panel",
+      "shot_type": "Medium Angle",
+      "camera_movement": "Slow Steady Push-in Tracking",
+      "lens_focal_length": "35mm tilt-shift lens",
+      "lighting": "Twilight ambient sky combined with internal box sign LED glow",
+      "physics_realism_notes": "Realistic acrylic reflection and wall light spill",
+      "final_master_prompt": "A commercial video of an urban storefront brick exterior at twilight. A rectangular mounted box sign with a translucent face lights up from within, revealing crisp typography reading DRINKING BOBA and a boba cup logo. Slow push-in shot, realistic brick mortar detail, 35mm lens, 4k, 24fps.",
+      "negative_prompt": "Warped brickwork, glowing bloat, distorted text, low resolution",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "ooh",
+        "architecture",
+        "lightbox",
+        "signage",
+        "boba"
+      ]
+    },
+    {
+      "id": "TECH-005",
+      "name": "Esports Wireless Gaming Mouse Engineering & Lighting Commercial",
+      "slug": "esports-wireless-gaming-mouse-commercial",
+      "category": "Tech",
+      "subcategory": "Computer Peripherals",
+      "description": "Matte black gaming mouse with green RGB laser beams and exploded 3D internal wireframe view.",
+      "core_creative_concept": "Emphasize ergonomic design, mechanical switches, and internal precision engineering.",
+      "subject": "Wireless gaming mouse with green LED lighting",
+      "environment": "Dark futuristic tech lab with obsidian reflective floor",
+      "action": "Mouse housing floats apart into 3D exploded wireframe showing internal circuits before snapping back together",
+      "shot_type": "Macro Close-up",
+      "camera_movement": "Smooth Vertical Tracking & Push-In",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "High-contrast dark moody lighting with neon green laser backlights",
+      "physics_realism_notes": "Matte soft-touch texture contrast against metallic scroll wheel",
+      "final_master_prompt": "A continuous high-end tech commercial for a matte-black wireless gaming mouse on a dark reflective surface. Volumetric neon green laser beams illuminate the mouse as it opens into an exploded 3D wireframe view showing internal micro-switches, then snaps back into a macro close-up of the scroll wheel. 90mm macro lens, 4k, 24fps.",
+      "negative_prompt": "CGI plastic look, warped geometry, unstable wireframes, low resolution",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "tech",
+        "gaming",
+        "mouse",
+        "rgb",
+        "macro",
+        "hardware"
+      ]
+    },
+    {
+      "id": "FOOD-006",
+      "name": "Translucent Beverage Can & Floating Ingredient Commercial",
+      "slug": "translucent-beverage-can-floating-ingredients",
+      "category": "Food",
+      "subcategory": "Beverages",
+      "description": "Custom clear beverage can filled with blue liquid, ice, berries, and boba floating in mid-air.",
+      "core_creative_concept": "Highlight freshness, caustic liquid reflections, and zero-gravity fluid dynamics.",
+      "subject": "Clear glass-aluminum hybrid can with blue liquid and boba pearls",
+      "environment": "Clean gradient blue cyclorama studio with rising effervescent bubbles",
+      "action": "Can rotates gracefully as ice cubes, berries, and boba swirl suspended in zero gravity",
+      "shot_type": "Macro Orbit Shot",
+      "camera_movement": "Dynamic Macro Orbit Track",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "Bright studio backlighting with caustic liquid refractions",
+      "physics_realism_notes": "Accurate bubble buoyancy, glass refractions, condensation droplets",
+      "final_master_prompt": "A commercial beverage shot of a translucent clear can filled with vibrant blue liquid, ice cubes, floating dark berries, and golden boba pearls. The camera orbits smoothly around the floating can against a blue backdrop with rising bubbles and sparkling condensation droplets. 90mm macro cine lens, 4k, 24fps.",
+      "negative_prompt": "Warped can shape, static liquid, blurry glass, artificial bubbles",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "beverage",
+        "can",
+        "boba",
+        "blue liquid",
+        "macro",
+        "ice"
+      ]
+    },
+    {
+      "id": "MKT-006",
+      "name": "Farooj Republic Spider-Man Restaurant Delivery Commercial",
+      "slug": "farooj-republic-spiderman-delivery-commercial",
+      "category": "Marketing",
+      "subcategory": "Brand Storytelling",
+      "description": "Spider-Man character delivering food packages using web-slinging mechanics at restaurant storefront.",
+      "core_creative_concept": "Combine viral superhero tropes with realistic restaurant packaging delivery.",
+      "subject": "Spider-Man upside-down hanging from web in front of Farooj Republic storefront",
+      "environment": "Modern restaurant storefront at night with warm interior lighting",
+      "action": "Web shoots down, lifts chicken box off table, and Spider-Man swings down upside-down to deliver bag",
+      "shot_type": "Medium Full Shot",
+      "camera_movement": "Upward Tilt and Crane Shot",
+      "lens_focal_length": "35mm anamorphic prime",
+      "lighting": "Night urban exterior with warm golden storefront interior glow",
+      "physics_realism_notes": "Realistic web tension and costume fabric elasticity",
+      "final_master_prompt": "A viral marketing commercial showing Spider-Man hanging upside down from a web line directly in front of the illuminated Farooj Republic restaurant storefront at night. A web pulls a branded food bag up into frame. 35mm anamorphic lens, realistic suit fabric textures, urban night lighting, 4k, 24fps.",
+      "negative_prompt": "Cartoonish 3D render, low quality suit, broken web line, blurry logo",
+      "recommended_models": [
+        "Runway Gen-3 Alpha"
+      ],
+      "tags": [
+        "marketing",
+        "spiderman",
+        "restaurant",
+        "delivery",
+        "viral"
+      ]
+    },
+    {
+      "id": "LUX-009",
+      "name": "Gemspired Luxury Diamond Engagement Ring Commercial",
+      "slug": "gemspired-luxury-diamond-engagement-ring",
+      "category": "Luxury",
+      "subcategory": "Jewelry",
+      "description": "Gold engagement ring with radiant-cut diamond in velvet box on silk fabric.",
+      "core_creative_concept": "Highlight diamond dispersion, velvet texture, and romantic elegance.",
+      "subject": "Gold engagement ring with radiant-cut diamond and side pear stones",
+      "environment": "Black velvet box placed on rich deep burgundy silk drapery",
+      "action": "Velvet box opens slowly, diamond catches light creating rainbow dispersion flashes",
+      "shot_type": "Macro Close-up",
+      "camera_movement": "Slow Push-In Tracking Shot",
+      "lens_focal_length": "90mm macro cine prime",
+      "lighting": "Warm side-key studio lighting with pinpoint diamond accent glints",
+      "physics_realism_notes": "Authentic gemstone refractive index, gold metal weight and specular sheen",
+      "final_master_prompt": "A luxury jewelry commercial of a gold engagement ring featuring a radiant-cut center diamond resting inside an open black velvet box on deep burgundy silk fabric. The camera moves in slowly as the diamond facets reflect brilliant sparkling light flashes. 90mm macro cine prime, 4k resolution, 24fps.",
+      "negative_prompt": "Plastic diamond, foggy glass, dull metal, warped ring band, flickering",
+      "recommended_models": [
+        "Runway Gen-3 Alpha",
+        "OpenAI Sora"
+      ],
+      "tags": [
+        "jewelry",
+        "diamond",
+        "ring",
+        "luxury",
+        "velvet",
+        "gold"
+      ]
+    }
+  ]
+}
