@@ -1,4 +1,5 @@
-streamlit==1.38.0
-scikit-learn==1.5.1
-numpy==1.26.4
-anthropic==0.34.2
+streamlit>=1.38.0
+scikit-learn
+numpy
+anthropic
+pillow
